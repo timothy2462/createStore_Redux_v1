@@ -42,7 +42,6 @@ const counterReducer = (state: CounterState, action: Action): CounterState => {
   }
 };
 
-// Create our store with an initial name
 export const counterStore = createStore(initialState, counterReducer, "Counter Store");
 
 // Action creator for renaming the store
